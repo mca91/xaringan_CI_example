@@ -11,7 +11,7 @@ before_script:
 install: skip
 
 script:
-  - ./scripts/cibuild
+  - scripts/cibuild
 
 deploy:
   provider: pages                         # Specify the gh-pages deployment method
