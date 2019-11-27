@@ -7,7 +7,6 @@ r_packages:
   - xaringan
 
 before_script:
-  - R -e 'install.packages("rmarkdown")'
   - chmod +x ./scripts/cibuild
 
 install: skip
