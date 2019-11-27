@@ -3,6 +3,7 @@ sudo: required
 cache: packages
 
 r_packages:
+  - rmarkdown
   - xaringan
 
 before_script:
