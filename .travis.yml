@@ -2,10 +2,6 @@ language: r
 sudo: required
 cache: packages
 
-r_packages:
-  - rmarkdown
-  - xaringan
-
 before_script:
   - chmod +x ./scripts/cibuild
 
