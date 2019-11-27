@@ -21,5 +21,9 @@ deploy:
   on:
     branch: master
 
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speed up the html-proofer
+
 notifications:
   email: false
