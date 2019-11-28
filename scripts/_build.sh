@@ -1,2 +1,2 @@
-#!/bin/sh
-Rscript -e "rmarkdown::render('slides.Rmd', 'xaringan::moon_reader')"
+#!/usr/bin/r
+rmarkdown::render('slides.Rmd', 'xaringan::moon_reader')
