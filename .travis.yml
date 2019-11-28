@@ -14,13 +14,10 @@ script:
 deploy:
   provider: pages                         # Specify the gh-pages deployment method
   skip_cleanup: true                      # Don't remove files
-  github_token: $GITHUB_TOKEN             # Set in travis-ci.org dashboard                       # Deploy the docs folder
+  github_token: $GITHUB_TOKEN             # Set in travis-ci.org dashboard
+  local_dir: .                         # Deploy the docs folder
   on:
     branch: master
-
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # Speed up the html-proofer
 
 notifications:
   email: false
