@@ -6,7 +6,7 @@ before_script:
   - chmod +x ./scripts/cibuild
 
 install:
-  - R -e 'install.packages(c("rmarkdown", "xaringan"))'
+  - R -e 'install.packages(c("rmarkdown", "xaringan", "callr"))'
 
 script:
   - scripts/cibuild
