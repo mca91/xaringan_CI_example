@@ -36,7 +36,9 @@ notifications:
     on_failure: always
 ```
 
-We tell travis to turn `cibuild` in an executable which then runs the following shell script.
+We tell travis to turn `cibuild` in an executable. This invokes the following shell script:
+
+#### _build.sh
 ```
 #!/bin/sh
 Rscript -e "xrngn_fls<-list.files(recursive = T, pattern = '.Rmd')
