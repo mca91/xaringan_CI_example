@@ -36,7 +36,7 @@ notifications:
     on_failure: always
 ```
 
-We tell travis to turn `cibuild` in an executable. This invokes the following shell script:
+We tell travis to turn `cibuild` in an executable which invokes the following shell script:
 
 #### _build.sh
 ```
