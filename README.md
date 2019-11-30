@@ -45,7 +45,7 @@ for (i in 1:length(xrngn_fls)) {
     args = list(xrngn_fls[i]))
 }"
 ```
-Here we recursively search for `.Rmd` files in the project repository and render them to `xaringan::moon_reader` -- each in a new R session since `rmarkdown::render(x, 'xaringan::moon_reader')` clutters the global environment which may lead to conflicts. 
+Here we recursively search for `.Rmd` files in the project repository and render them to `xaringan::moon_reader`, each in a new R session since `rmarkdown::render(x, 'xaringan::moon_reader')` clutters the global environment which may lead to conflicts. 
 
 Note that `$GITHUB_TOKEN` is a reference to the environment variable `GITHUB-Token` which is stored in the repository settings @ [travis-ci.org](https://travis-ci.org).  
 
