@@ -6,7 +6,7 @@ This is a basic example how to check and deploy xaringan projects using the trav
 
 #### .travis.yml
 
-The below `.travis.yml` file tells travis to test the project using an R environment and deploy the results to the gh-pages. 
+The below `.travis.yml` file tells travis to test the project using an R environment and deploy the results to the gh-pages branch (travis creates the branch if it doesn't exist). 
 
 ```yaml
 language: r
