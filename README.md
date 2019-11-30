@@ -4,7 +4,7 @@
 
 This is a basic example how to check and deploy xaringan projects using the travis continuous integration service and GitHub Pages.
 
-### `.travis.yml`
+#### .travis.yml
 
 The below `.travis.yml` file tells travis to test the project using an R environment and deploy the results to the gh-pages. 
 
