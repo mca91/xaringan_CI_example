@@ -51,4 +51,4 @@ Here we recursively search for `.Rmd` files in the project repository and render
 
 Note that `$GITHUB_TOKEN` is a reference to the environment variable `GITHUB-Token` which is stored in the repository settings @ [travis-ci.org](https://travis-ci.org).  
 
-If everything runs without issues, travis pushes the everything into the gh-pages branch which you may use to publish your slides via, e.g., netlify.
+If everything runs without issues, travis pushes everything into the gh-pages branch which you may use to publish your slides via, e.g., netlify.
